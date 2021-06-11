@@ -1,0 +1,85 @@
+/*Corpo & Background*/
+body{
+    background-image: linear-gradient(rgba(11, 180, 180, 0.3), rgba(11, 180, 180, 0.2)), url("../img/alireza-attari-5kXNhroW1_Y-login.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    font-family: Nunito,-apple-system,BlinkMacSystemFont,"Segoe UI",
+    Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+body::after{
+    background-image: linear-gradient(rgba(11, 180, 180, 0.5), rgba(11, 180, 180, 0.4)), url("../img/alireza-attari-5kXNhroW1_Y-login.jpgs");
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/*Caixa de Login*/
+input{
+    display: block;
+    outline-color: #0bb4b480;
+    background-color: #f8f9fc;
+    font-size: 12px;
+    width: 300px;
+    height: 35px;
+    margin: 10px;
+    border: 0px solid #707070;
+    border-radius: 1px;
+    padding: 10px 10px;
+}
+
+.btn{
+    padding: 10px;
+
+}
+
+.btn-login{
+    background-color: #0BB4B4;
+    width: 100px;
+    height: 30px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    color: white;
+    border: 0px;
+    outline: 0;
+    cursor: pointer;
+}
+
+.btn-login:hover{
+    background-color: rgb(9, 133, 133, 1.0);
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    text-decoration: none;
+    border: solid #337FED 0px;
+}
+
+/*.msg-erro{
+    text-align: center;
+}*/
+
+div#login-caixa{
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 0px 5px #4e4848;
+    border-radius: 2px;
+    width: 400px;
+    height: 250px;
+    margin: 150px auto 0px auto;
+    padding: 30px;
+}
+
+div#login-caixa h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
