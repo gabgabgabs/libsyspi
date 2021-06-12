@@ -1,1 +1,1 @@
-# LibSys - Sistema Gerenciador de Bibliotecas
+# LibSys - Sistema Gerenciador de Bibliotecas - Grupo 06
